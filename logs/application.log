@@ -1,0 +1,5 @@
+2020-02-08 22:27:27,848 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-11 - Database [default] initialized at jdbc:h2:mem:play;DB_CLOSE_DELAY=-1
+2020-02-08 22:27:27,855 [INFO] from play.api.db.HikariCPConnectionPool in play-dev-mode-akka.actor.default-dispatcher-11 - Creating Pool for datasource 'default'
+2020-02-08 22:27:27,891 [INFO] from play.api.db.HikariCPConnectionPool in play-dev-mode-akka.actor.default-dispatcher-11 - datasource [default] bound to JNDI as DefaultDS
+2020-02-08 22:27:27,917 [INFO] from akka.event.slf4j.Slf4jLogger in application-akka.actor.default-dispatcher-6 - Slf4jLogger started
+2020-02-08 22:27:29,699 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-11 - Application started (Dev) (no global state)
