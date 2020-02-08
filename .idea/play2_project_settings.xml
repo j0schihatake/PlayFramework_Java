@@ -13,8 +13,8 @@
         <entry key="root">
           <value>
             <ProjectSettingsEntry>
-              <option name="sourceDir" value="D:\Develop\Разработка на Java\JavaFirstPlayFramework\play-samples-play-java-rest-api-example\app" />
-              <option name="confDir" value="D:\Develop\Java\JavaFirstPlayFramework\play-samples-play-java-rest-api-example\app" />
+              <option name="sourceDir" value="D:\Develop\Java\JavaFirstPlayFramework\play-samples-play-java-rest-api-example\app" />
+              <option name="confDir" value="D:\Develop\Java\JavaFirstPlayFramework\PlayProjectRest\app" />
               <option name="templateImports">
                 <list>
                   <option value="_root_.play.twirl.api.TwirlFeatureImports._" />
@@ -44,7 +44,7 @@
                   <option value="play.libs.F" />
                 </list>
               </option>
-              <option name="uri" value="/D:/Develop/Java/JavaFirstPlayFramework/play-samples-play-java-rest-api-example" />
+              <option name="uri" value="/D:/Develop/Java/JavaFirstPlayFramework/PlayProjectRest" />
             </ProjectSettingsEntry>
           </value>
         </entry>
