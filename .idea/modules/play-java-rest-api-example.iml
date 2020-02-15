@@ -14,6 +14,31 @@
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/../../conf/META-INF/persistence.xml" />
       </configuration>
     </facet>
+    <facet type="Osmorc" name="OSGi">
+      <configuration manifestGenerationMode="Manually" manifestLocation="src/main/resources/h2-2019-10-14/h2/src/installer/source-manifest.mf" jarfileLocation="play-java-rest-api-example.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="false" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
+        <additionalProperties />
+        <additionalJARContents />
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/../../src/main/resources/h2-2019-10-14/h2/src/tools/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/../../src/main/resources/h2-2019-10-14/h2/src/tools" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/../../app" />
+          <root url="file://$MODULE_DIR$/../../conf" />
+          <root url="file://$MODULE_DIR$/../../public" />
+          <root url="file://$MODULE_DIR$/../../target/scala-2.13/routes/main" />
+          <root url="file://$MODULE_DIR$/../../target/scala-2.13/twirl/main" />
+          <root url="file://$MODULE_DIR$/../../src/main/java" />
+          <root url="file://$MODULE_DIR$/../../src/main/resources" />
+        </sourceRoots>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
     <output url="file://$MODULE_DIR$/../../target/classes" />
@@ -184,5 +209,6 @@
     <orderEntry type="library" name="sbt: ch.qos.logback:logback-classic:1.2.3:jar" level="project" />
     <orderEntry type="library" name="sbt: aopalliance:aopalliance:1.0:jar" level="project" />
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.4.4" level="project" />
+    <orderEntry type="library" name="Maven: com.h2database:h2:unknown" level="project" />
   </component>
 </module>

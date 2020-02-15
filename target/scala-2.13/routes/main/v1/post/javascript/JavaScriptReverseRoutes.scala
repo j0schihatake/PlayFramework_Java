@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:D:/Develop/Java/JavaFirstPlayFramework/play-samples-play-java-rest-api-example/conf/posts.routes
-// @DATE:Sat Feb 08 22:27:13 MSK 2020
+// @SOURCE:D:/Develop/Java/JavaFirstPlayFramework/PlayProjectRest/conf/posts.routes
+// @DATE:Sat Feb 15 23:52:33 MSK 2020
 
 import play.api.routing.JavaScriptReverseRoute
 
