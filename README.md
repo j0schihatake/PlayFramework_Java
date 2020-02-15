@@ -1,4 +1,62 @@
 # play-java-rest-api-example
+-
+Первое знакомство с Play Framework и Scala.
+-
+
+За основу был взят архив примера с основного сайта Play Framework-а.
+В процессе изучения использовались следующие источники:
+
+Канал обучения по Play Framework
+https://www.youtube.com/watch?v=idCKdGvtt4s&t=324s
+
+https://github.com/alexklibisz/play-2.3.6-mybatis-sample
+
+https://github.com/playframework/play-java-rest-api-example
+
+https://github.com/JoseVte/template-api-rest-java-playframework
+
+- Задание:
+
+    Написать REST-сервис для магазина БУ автомобилей.
+
+    API должен содержать CRUD для каждой сущности бизнес-модели:
+    марка -- наименование -- страна
+
+    модель -- наименование -- год начала производства -- год окончания производства
+
+    позиция в магазине -- марка -- модель -- год выпуска -- пробег -- цена
+
+    API должен содержать метод поиска по позициям в магазине.
+
+    Технологии: Play Framework, MyBatis, в качестве БД H2 с эмуляцией PostgreSQL, DDL в отдельных скриптах эволюций (evolutions scripts), каждый слой сервиса должен работать в отдельном настраиваемом forkjoin пуле.
+
+    com.typesafe.play play_2.13 2.8.1
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
 
 A REST API showing Play with a JPA backend.  For the Scala version, please see <https://github.com/playframework/play-samples/tree/2.8.x/play-scala-rest-api-example>.
 
